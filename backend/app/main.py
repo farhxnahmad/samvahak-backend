@@ -18,7 +18,6 @@ app = FastAPI(
     title="Samvahak API",
     description="AI-powered logistics and accessibility intelligence platform for North East India",
     version="0.1.0",
-    openapi_url=None,
 )
 
 app.add_middleware(
